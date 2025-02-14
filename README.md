@@ -56,8 +56,8 @@ Quick Sort is a divide-and-conquer algorithm that selects a pivot element and pa
 
 ## Usage Instructions
 
-- Run `bubble_sort.dart` to test Bubble Sort.
-- Run `quick_sort.dart` to test Quick Sort.
+- Run ` dart BubbleSort.dart` to test Bubble Sort.
+- Run ` dart QuickSort.dart` to test Quick Sort.
 - Enter a list of numbers and choose ascending or descending order.
 - The program will measure and display the time taken for sorting.
 
