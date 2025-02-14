@@ -47,6 +47,34 @@ Quick Sort is a divide-and-conquer algorithm that selects a pivot element and pa
 - Can degrade to O(n²) if pivot selection is poor.
 - Requires additional memory for recursive calls.
 
+  # Combined Sorting (Bubble Sort vs. Quick Sort)
+
+## How It Works
+A new `combined.dart` file has been created that allows users to compare Bubble Sort and Quick Sort side by side.
+
+## Features
+- Users can enter numbers manually or specify how many random numbers should be generated.
+- Users can choose between ascending and descending order.
+- The program will run both Bubble Sort and Quick Sort on the same dataset and display their execution times for comparison.
+
+## Usage Instructions
+
+### Run the combined sorting program:
+```sh
+dart combined.dart
+```
+
+### Choose input method:
+1. Enter numbers manually.
+2. Specify how many random numbers to generate.
+
+### Choose sorting order:
+- Ascending
+- Descending
+
+The program will compare the time taken by both sorting algorithms and display the results.
+
+
 ## Comparison Table
 
 | Algorithm     | Best Case | Worst Case | Average Case | Space Complexity | Stability |
@@ -54,7 +82,7 @@ Quick Sort is a divide-and-conquer algorithm that selects a pivot element and pa
 | Bubble Sort  | O(n)     | O(n²)      | O(n²)        | O(1)             | Yes       |
 | Quick Sort   | O(n log n) | O(n²)    | O(n log n)   | O(log n) (recursive calls) | No |
 
-## Usage Instructions
+## Usage Instructions on How to run both Quick sort and Bubblesort
 
 - Run ` dart BubbleSort.dart` to test Bubble Sort.
 - Run ` dart QuickSort.dart` to test Quick Sort.
