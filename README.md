@@ -49,9 +49,6 @@ Quick Sort is a divide-and-conquer algorithm that selects a pivot element and pa
 
   # Combined Sorting (Bubble Sort vs. Quick Sort)
 
-## How It Works
-A new `combined.dart` file has been created that allows users to compare Bubble Sort and Quick Sort side by side.
-
 ## Features
 - Users can enter numbers manually or specify how many random numbers should be generated.
 - Users can choose between ascending and descending order.
